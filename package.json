@@ -1,0 +1,28 @@
+{
+  "name": "hugopage",
+  "version": "1.0.1",
+  "description": "Hugo documentation template for Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --minify",
+    "preview": "wrangler pages dev public",
+    "deploy": "npm run build && wrangler deploy --env production",
+    "deploy:preview": "npm run build && wrangler deploy --env preview",
+    "comment": "Updated 2025-07-30 to remove git submodule dependency"
+  },
+  "keywords": [
+    "hugo",
+    "documentation",
+    "cloudflare-workers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.4",
+    "wrangler": "^4.26.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

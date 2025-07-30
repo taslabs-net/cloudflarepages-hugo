@@ -1,0 +1,26 @@
+name = "hugopage"
+main = "src/index.js"
+compatibility_date = "2025-07-30"
+compatibility_flags = ["nodejs_compat"]
+assets = { directory = "./public" }
+
+# For local development
+[dev]
+port = 8787
+local_protocol = "http"
+
+# Production environment
+[env.production]
+name = "hugopage"
+# Uncomment and update when you have a custom domain
+# routes = [
+#   { pattern = "yourdomain.com", custom_domain = true }
+# ]
+
+# Preview environment  
+[env.preview]
+name = "hugopage-preview"
+
+# Observability settings
+[observability.logs]
+enabled = true
