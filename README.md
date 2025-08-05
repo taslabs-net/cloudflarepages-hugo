@@ -4,8 +4,6 @@
 
 A zero-config Hugo documentation site that deploys to Cloudflare Workers. Just edit markdown files on GitHub - no installation required!
 
-Visit the example: https://timsnotes.pages.dev/
-
 ## Features
 
 - **Zero Setup** - Click deploy, start writing
