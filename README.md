@@ -1,5 +1,7 @@
 # Hugo Documentation Template for Cloudflare Workers
 
+[![Cloudflare Workers](https://img.shields.io/badge/Powered%20by-Cloudflare%20Workers-orange?style=for-the-badge&logo=cloudflare)](https://workers.cloudflare.com/)
+
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/taslabs-net/cloudflarepages-hugo)
 
 A zero-config Hugo documentation site that deploys to Cloudflare Workers. Just edit markdown files on GitHub - no installation required!
