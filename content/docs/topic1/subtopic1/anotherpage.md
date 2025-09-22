@@ -1,30 +1,34 @@
 ---
-title: "Advanced Installation Options"
-description: "Additional installation methods and configurations"
+title: 'Advanced Installation Options'
+description: 'Additional installation methods and configurations'
 weight: 2
 ---
 
 # Advanced Installation Options
 
-This page covers advanced installation scenarios and alternative deployment methods.
+This page covers advanced installation scenarios and alternative deployment
+methods.
 
 ## Local Development
 
 To run the site locally for development:
 
 ### Prerequisites
+
 - Hugo Extended installed locally (version 0.148.2+)
 - Git
 
 ### Steps
 
 1. Clone your forked repository:
+
 ```bash
 git clone https://github.com/yourusername/your-forked-repo.git
 cd your-forked-repo
 ```
 
 2. Start the development server:
+
 ```bash
 hugo server -D
 ```
@@ -36,12 +40,13 @@ hugo server -D
 ### GitHub Pages
 
 1. Add a GitHub Actions workflow:
+
 ```yaml
 name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ['main']
   workflow_dispatch:
 
 permissions:
@@ -102,6 +107,7 @@ COPY --from=builder /src/public /usr/share/nginx/html
 ```
 
 Build and run:
+
 ```bash
 docker build -t my-hugo-site .
 docker run -p 8080:80 my-hugo-site
@@ -112,14 +118,17 @@ docker run -p 8080:80 my-hugo-site
 ### Common Issues
 
 **Theme not found**
+
 - Ensure the theme is properly installed in `themes/book`
 - Verify the theme folder exists and contains theme files
 
 **Build fails on Cloudflare**
+
 - Verify HUGO_VERSION environment variable
 - Check for case-sensitive file paths
 
 **Content not appearing**
+
 - Ensure files have proper frontmatter
 - Check for `draft: true` in frontmatter
 - Verify file is in correct directory

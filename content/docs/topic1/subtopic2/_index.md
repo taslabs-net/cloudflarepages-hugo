@@ -1,6 +1,6 @@
 ---
-title: "Configuration"
-description: "Basic configuration options"
+title: 'Configuration'
+description: 'Basic configuration options'
 weight: 2
 ---
 
@@ -23,12 +23,12 @@ theme = 'book'
 
 ### Configuration Options
 
-| Option | Description | Default |
-|--------|-------------|---------|
-| `baseURL` | The base URL of your site | `/` |
-| `languageCode` | Language code for the site | `en-us` |
-| `title` | Site title shown in browser | Required |
-| `theme` | Hugo theme to use | `book` |
+| Option         | Description                 | Default  |
+| -------------- | --------------------------- | -------- |
+| `baseURL`      | The base URL of your site   | `/`      |
+| `languageCode` | Language code for the site  | `en-us`  |
+| `title`        | Site title shown in browser | Required |
+| `theme`        | Hugo theme to use           | `book`   |
 
 ## Theme Configuration
 
@@ -38,10 +38,10 @@ The Book theme supports additional parameters:
 [params]
   # Show/hide table of contents
   BookToC = true
-  
+
   # Set source repository for edit links
   BookRepo = 'https://github.com/yourusername/your-forked-repo'
-  
+
   # Enable search
   BookSearch = true
 ```
@@ -65,10 +65,10 @@ Each content file should include frontmatter:
 
 ```yaml
 ---
-title: "Page Title"
-description: "Page description"
-weight: 1  # Order in navigation
-draft: false  # Set to true to hide
+title: 'Page Title'
+description: 'Page description'
+weight: 1 # Order in navigation
+draft: false # Set to true to hide
 ---
 ```
 

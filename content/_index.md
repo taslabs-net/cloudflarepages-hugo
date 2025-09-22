@@ -1,11 +1,13 @@
 ---
-title: "Template Homepage"
-description: "Hugo documentation site template for Cloudflare Workers"
+title: 'Template Homepage'
+description: 'Hugo documentation site template for Cloudflare Workers'
 ---
 
 # Hugo Documentation Template
 
-A simple Hugo-based documentation site that automatically deploys to Cloudflare Workers. Just edit markdown files on GitHub and your changes go live automatically!
+A simple Hugo-based documentation site that automatically deploys to Cloudflare
+Workers. Just edit markdown files on GitHub and your changes go live
+automatically!
 
 ## Quick Start (30 seconds!)
 
@@ -18,7 +20,8 @@ A simple Hugo-based documentation site that automatically deploys to Cloudflare 
 ## How It Works
 
 1. **Edit on GitHub** - Simply edit markdown files directly on GitHub
-2. **Automatic Deployment** - Every commit triggers an automatic build and deploy
+2. **Automatic Deployment** - Every commit triggers an automatic build and
+   deploy
 3. **Global CDN** - Your site is served from Cloudflare's edge network worldwide
 
 ## No Installation Required!
@@ -42,11 +45,10 @@ This template is designed to work without any local setup:
 
 ```yaml
 ---
-title: "My New Page"
-description: "What this page is about"
+title: 'My New Page'
+description: 'What this page is about'
 weight: 10
 ---
-
 # My Content
 
 Start writing here...
@@ -68,7 +70,7 @@ content/
 ├── _index.md          # Homepage (you are here!)
 └── docs/              # Documentation section
     ├── topic1/        # Getting Started
-    ├── topic2/        # Content Creation  
+    ├── topic2/        # Content Creation
     └── topic3/        # Customization
 ```
 
@@ -86,6 +88,7 @@ content/
 ### Change Site Title
 
 Edit `hugo.toml` on GitHub:
+
 ```toml
 title = 'Your Site Name'
 ```
@@ -93,6 +96,6 @@ title = 'Your Site Name'
 ### Modify Navigation
 
 The sidebar automatically reflects your folder structure. To reorder:
+
 - Add `weight: 1` to frontmatter (lower numbers appear first)
 - Rename folders to change URLs
-

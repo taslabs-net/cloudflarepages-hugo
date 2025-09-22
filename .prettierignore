@@ -1,0 +1,36 @@
+# Hugo generated files
+public/
+resources/
+
+# Dependencies
+node_modules/
+
+# Cloudflare
+.wrangler/
+
+# Git
+.git/
+
+# Build locks
+.hugo_build.lock
+package-lock.json
+
+# Vendor files
+vendor/
+
+# Minified files
+*.min.js
+*.min.css
+
+# Dist folders
+dist/
+build/
+
+# Hugo themes (contains template syntax)
+themes/
+
+# Hugo layouts (template files)
+layouts/
+
+# Hugo archetypes
+archetypes/

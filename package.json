@@ -9,7 +9,11 @@
     "preview": "wrangler pages dev public",
     "deploy": "npm run build && wrangler deploy --env production",
     "deploy:preview": "npm run build && wrangler deploy --env preview",
-    "comment": "Updated 2025-07-30 to remove git submodule dependency",
+    "clean": "rm -rf public resources .hugo_build.lock",
+    "commit": "cz",
+    "lint": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md,html,css}\"",
+    "lint:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,html,css}\"",
+    "format": "npm run lint:fix",
     "prepare": "husky"
   },
   "keywords": [

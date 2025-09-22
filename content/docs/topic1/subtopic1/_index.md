@@ -1,12 +1,13 @@
 ---
-title: "Getting Started"
-description: "Deploy your documentation site in minutes"
+title: 'Getting Started'
+description: 'Deploy your documentation site in minutes'
 weight: 1
 ---
 
 # Getting Started
 
-Deploy your documentation site to Cloudflare Workers in just a few clicks - no installation required!
+Deploy your documentation site to Cloudflare Workers in just a few clicks - no
+installation required!
 
 ## One-Click Deploy
 
@@ -21,6 +22,7 @@ Click the button above and follow these steps:
 ## Your Site is Ready!
 
 Once deployed, you'll get:
+
 - A live URL like `https://your-project.workers.dev`
 - Automatic deployments when you edit files on GitHub
 - Global CDN distribution
@@ -68,7 +70,7 @@ content/
 
 ```markdown
 ---
-title: "My New Page"
+title: 'My New Page'
 weight: 10
 ---
 
