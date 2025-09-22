@@ -14,7 +14,12 @@
     "lint": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md,html,css}\"",
     "lint:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,html,css}\"",
     "format": "npm run lint:fix",
-    "prepare": "husky"
+    "prepare": "husky",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major",
+    "release:dry-run": "standard-version --dry-run"
   },
   "keywords": [
     "hugo",
@@ -32,10 +37,12 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.0",
     "prettier": "^3.6.2",
+    "standard-version": "^9.5.0",
     "wrangler": "^4.26.1"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
   },
   "config": {
     "commitizen": {

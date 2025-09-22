@@ -1,0 +1,17 @@
+{
+  "types": [
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "chore", "hidden": true },
+    { "type": "docs", "section": "Documentation" },
+    { "type": "style", "section": "Styles" },
+    { "type": "refactor", "section": "Code Refactoring" },
+    { "type": "perf", "section": "Performance Improvements" },
+    { "type": "test", "section": "Tests" },
+    { "type": "build", "section": "Build System" },
+    { "type": "ci", "section": "Continuous Integration" }
+  ],
+  "commitUrlFormat": "https://github.com/taslabs-net/cloudflarepages-hugo/commit/{{hash}}",
+  "compareUrlFormat": "https://github.com/taslabs-net/cloudflarepages-hugo/compare/{{previousTag}}...{{currentTag}}",
+  "issueUrlFormat": "https://github.com/taslabs-net/cloudflarepages-hugo/issues/{{id}}"
+}
