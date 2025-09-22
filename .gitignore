@@ -28,3 +28,7 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+# Claude AI
+.claude/
+claude/
