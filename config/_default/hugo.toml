@@ -1,0 +1,45 @@
+# This is the default configuration
+# You can override these settings in config/production/hugo.toml and config/development/hugo.toml
+
+baseURL = 'https://hugo-docs.pages.dev/'
+languageCode = 'en-us'
+title = 'Hugo Documentation Template'
+theme = 'book'
+
+# Enable Git info for last modified dates
+enableGitInfo = true
+
+# Build configuration
+[build]
+  writeStats = true
+
+[minify]
+  disableHTML = false
+  disableCSS = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+
+# Configure markup
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+
+# Configure related content
+[related]
+  includeNewer = true
+  indices = [
+    {name = "keywords", weight = 100},
+    {name = "tags", weight = 80},
+    {name = "categories", weight = 60},
+    {name = "date", weight = 10}
+  ]
+  threshold = 80
+  toLower = true

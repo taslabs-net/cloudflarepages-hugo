@@ -1,7 +1,16 @@
-baseURL = '/'
+baseURL = 'https://hugo-docs.pages.dev/'
 languageCode = 'en-us'
 title = 'Hugo Documentation Template'
 theme = 'book'
+
+# Enable Git info for last modified dates
+enableGitInfo = true
+
+# SEO and metadata
+[params.meta]
+  description = 'Modern documentation site built with Hugo and deployed on Cloudflare Pages'
+  author = 'Your Team'
+  keywords = 'documentation, hugo, cloudflare, static site'
 
 # Book theme specific settings
 [params]
@@ -28,19 +37,19 @@ theme = 'book'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  # BookRepo = 'https://github.com/yourusername/your-forked-repo'
+  BookRepo = 'https://github.com/taslabs-net/cloudflarepages-hugo'
 
   # Specifies commit portion of the link to the page's last modified commit hash for 'doc' page
   # type.
   # Required if 'BookRepo' param is set.
   # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
   # Github uses 'commit', Bitbucket uses 'commits'
-  # BookCommitPath = 'commit'
+  BookCommitPath = 'commit'
 
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to the site directory.
-  # BookEditPath = 'edit/main'
+  BookEditPath = 'edit/main'
 
   # (Optional, default January 2, 2006) Configure the date format used on the pages
   # - In git information
