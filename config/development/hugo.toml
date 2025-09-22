@@ -1,0 +1,23 @@
+# Development-specific configuration
+baseURL = 'http://localhost:1313/'
+
+# Development settings
+buildDrafts = true
+buildFuture = true
+buildExpired = true
+
+# Disable minification in development for easier debugging
+[minify]
+  disableHTML = true
+  disableCSS = true
+  disableJS = true
+  disableJSON = true
+  disableSVG = true
+  disableXML = true
+
+# Development server settings
+[server]
+  [[server.headers]]
+    for = '/**'
+    [server.headers.values]
+      X-Dev-Server = 'Hugo Development'

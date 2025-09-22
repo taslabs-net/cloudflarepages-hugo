@@ -1,0 +1,32 @@
+# Book theme parameters
+# These can be overridden in environment-specific configs
+
+# SEO and metadata
+[meta]
+  description = 'Modern documentation site built with Hugo and deployed on Cloudflare Pages'
+  author = 'Your Team'
+  keywords = 'documentation, hugo, cloudflare, static site'
+
+# Theme settings
+BookTheme = 'auto'
+BookToC = true
+BookSection = 'docs'
+
+# Repository settings for "Edit this page" functionality
+BookRepo = 'https://github.com/taslabs-net/cloudflarepages-hugo'
+BookCommitPath = 'commit'
+BookEditPath = 'edit/main'
+
+# Date format
+BookDateFormat = 'January 2, 2006'
+
+# Features
+BookSearch = true
+BookComments = false
+BookPortableLinks = true
+BookServiceWorker = false
+
+# Custom settings
+ShowLastModified = true
+ShowReadingTime = true
+ShowWordCount = false

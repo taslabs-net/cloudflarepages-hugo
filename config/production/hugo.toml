@@ -1,0 +1,20 @@
+# Production-specific configuration
+baseURL = 'https://hugo-docs.pages.dev/'
+
+# Enable minification in production
+[minify]
+  disableHTML = false
+  disableCSS = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+
+# Production build settings
+[build]
+  writeStats = false
+
+# Disable development features
+buildDrafts = false
+buildFuture = false
+buildExpired = false
