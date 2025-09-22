@@ -1,12 +1,13 @@
 ---
-title: "Content Creation"
-description: "How to create and organize content"
+title: 'Content Creation'
+description: 'How to create and organize content'
 weight: 2
 ---
 
 # Content Creation
 
-Learn how to create, organize, and manage content in your Hugo documentation site.
+Learn how to create, organize, and manage content in your Hugo documentation
+site.
 
 ## Topics Covered
 
@@ -18,12 +19,15 @@ Learn how to create, organize, and manage content in your Hugo documentation sit
 This template supports various content types:
 
 ### Documentation Pages
+
 Standard documentation pages with navigation and table of contents.
 
 ### Blog Posts
+
 Optional blog section for announcements and updates.
 
 ### Landing Pages
+
 Custom landing pages for sections and topics.
 
 ## Best Practices

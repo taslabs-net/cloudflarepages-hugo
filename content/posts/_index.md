@@ -1,15 +1,17 @@
 ---
-title: "Blog Posts"
-description: "Latest updates and announcements"
+title: 'Blog Posts'
+description: 'Latest updates and announcements'
 ---
 
 # Blog Posts
 
-Welcome to the blog section. This is where you can share updates, tutorials, and announcements related to your documentation.
+Welcome to the blog section. This is where you can share updates, tutorials, and
+announcements related to your documentation.
 
 ## Recent Posts
 
-No posts yet. Create your first post by adding a new markdown file in the `content/posts/` directory.
+No posts yet. Create your first post by adding a new markdown file in the
+`content/posts/` directory.
 
 ## Creating a Blog Post
 
@@ -18,12 +20,13 @@ No posts yet. Create your first post by adding a new markdown file in the `conte
 3. Write your content using Markdown
 
 Example post frontmatter:
+
 ```yaml
 ---
-title: "My First Post"
+title: 'My First Post'
 date: 2024-01-15
-description: "Introduction to our new documentation site"
-author: "Your Name"
-tags: ["announcement", "getting-started"]
+description: 'Introduction to our new documentation site'
+author: 'Your Name'
+tags: ['announcement', 'getting-started']
 ---
 ```

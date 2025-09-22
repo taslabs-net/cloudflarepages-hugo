@@ -1,23 +1,26 @@
 ---
-title: "Documentation"
-description: "Main documentation section"
+title: 'Documentation'
+description: 'Main documentation section'
 weight: 1
 bookFlatSection: true
 ---
 
 # Documentation
 
-Welcome to the documentation section. This template includes three example topics to help you get started:
+Welcome to the documentation section. This template includes three example
+topics to help you get started:
 
 ## Topics
 
 - [Topic 1](topic1) - First example topic with subtopics
-- [Topic 2](topic2) - Second example topic with subtopics  
+- [Topic 2](topic2) - Second example topic with subtopics
 - [Topic 3](topic3) - Third example topic with subtopics
 
 ## Getting Started
 
-Each topic contains multiple subtopics demonstrating the hierarchical structure supported by this template. Feel free to modify these examples or create your own topics.
+Each topic contains multiple subtopics demonstrating the hierarchical structure
+supported by this template. Feel free to modify these examples or create your
+own topics.
 
 ### Creating New Topics
 
@@ -28,4 +31,6 @@ Each topic contains multiple subtopics demonstrating the hierarchical structure 
 
 ### Navigation
 
-The Book theme automatically generates a sidebar navigation based on your content structure. Pages are ordered by weight (in frontmatter) or alphabetically if no weight is specified.
+The Book theme automatically generates a sidebar navigation based on your
+content structure. Pages are ordered by weight (in frontmatter) or
+alphabetically if no weight is specified.
