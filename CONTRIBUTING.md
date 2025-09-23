@@ -233,6 +233,8 @@ Test with Cloudflare Workers locally:
 npm run preview
 ```
 
+This runs the Worker locally with static assets support.
+
 ### Clean Build Artifacts
 
 Remove generated files:

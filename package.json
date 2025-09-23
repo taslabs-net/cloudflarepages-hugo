@@ -7,7 +7,7 @@
     "dev": "hugo server -D",
     "build": "hugo --gc --minify",
     "build:preview": "hugo --gc --minify --buildDrafts --buildFuture",
-    "preview": "wrangler pages dev public",
+    "preview": "wrangler dev --local",
     "deploy": "npm run build && wrangler deploy --env production",
     "deploy:preview": "npm run build:preview && wrangler deploy --env preview",
     "clean": "rm -rf public resources .hugo_build.lock",

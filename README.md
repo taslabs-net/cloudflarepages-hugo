@@ -4,8 +4,8 @@
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/taslabs-net/cloudflarepages-hugo)
 
-A zero-config Hugo documentation site that deploys to Cloudflare Workers. Just
-edit markdown files on GitHub - no installation required!
+A zero-config Hugo documentation site that deploys to Cloudflare Workers with
+static assets. Just edit markdown files on GitHub - no installation required!
 
 ## Features
 
