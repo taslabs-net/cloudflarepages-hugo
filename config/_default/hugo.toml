@@ -1,7 +1,7 @@
 # This is the default configuration
 # You can override these settings in config/production/hugo.toml and config/development/hugo.toml
 
-baseURL = 'https://hugo-docs.pages.dev/'
+baseURL = 'https://hugopage.workers.dev/'
 languageCode = 'en-us'
 title = 'Hugo Documentation Template'
 theme = 'book'

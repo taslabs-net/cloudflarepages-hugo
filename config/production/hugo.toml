@@ -1,5 +1,5 @@
 # Production-specific configuration
-baseURL = 'https://hugo-docs.pages.dev/'
+baseURL = 'https://hugopage.workers.dev/'
 
 # Enable minification in production
 [minify]
